@@ -96,8 +96,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         start: "center 70%",
         end: "top 30%",
         scrub: true,
-        markers: true
-
+        
       }
     })
 
@@ -120,8 +119,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         start: "top 90%",
         end: "top 65%",
         scrub: true,
-        markers: true
-
+        
       }
     })
 
@@ -144,8 +142,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         start: "top 90%",
         end: "top 65%",
         scrub: true,
-        markers: true
-
+        
       }
     })
 
@@ -166,8 +163,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         start: "top 10%",
         end: "top top",
         scrub: 1.5,
-        markers: true
-
+        
       }
     })
 
@@ -182,8 +178,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         start: "top center",
         end: "top 30%",
         scrub: 1.5,
-        markers: true
-
+        
       }
     })
 
@@ -207,8 +202,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         start: "top 65%",
         end: "top -10%",
         scrub: 1.5,
-        markers: true
-      }
+              }
     })
 
     revealTl.to(".stp-1", reveal()).
@@ -355,8 +349,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       start: "top center",
       end: "center 30%",
       scrub: true,
-      markers: true
-    }
+          }
   })
 
   const services = document.getElementById("Services")
@@ -374,8 +367,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       start: "top center",
       end: "center 30%",
       scrub: true,
-      markers: true
-    }
+          }
   })
 
   const workTl = gsap.timeline({
@@ -384,7 +376,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       start: "top center",
       end: "top top",
       scrub: true,
-      markers: true,
+      
     }
   })
 
