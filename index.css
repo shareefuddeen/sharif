@@ -1741,3 +1741,55 @@ a,
     }
 
 }
+
+/* ===== MOBILE FLOAT / OVERFLOW FIXES ===== */
+@media (max-width: 1024px) {
+    body, html {
+        overflow-x: hidden;
+    }
+
+    #hero, #about, #About, #Services, #latest-works, #client-feedback, .footer {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .hero-image-con img {
+        width: 100%;
+        max-width: 420px;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .projects-grid {
+        display: flex !important;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 1rem;
+        padding-left: 1rem;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .projects-grid::-webkit-scrollbar {
+        display: none;
+    }
+
+    .project-card {
+        flex: 0 0 85%;
+        max-width: 85%;
+        scroll-snap-align: center;
+        height: auto;
+    }
+
+    .social-links {
+        width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
+    .footer {
+        width: 100% !important;
+        overflow-x: hidden !important;
+    }
+}
