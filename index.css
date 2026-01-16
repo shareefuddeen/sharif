@@ -1808,7 +1808,7 @@ a,
     .footer .footer-last-col {
         flex-direction: column;
         gap: 14px;
-        text-align: center;
+        text-align: left;
     }
 
     .footer .footer-last-col p {
@@ -1829,7 +1829,9 @@ a,
         font-size: 2.4em;
         padding: 15px;
     }
-
+    .drive{
+        font-size: 30px;
+    }
     .link-p {
         display: none;
         gap: 2em;
